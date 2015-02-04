@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html lang="en">
+	<meta content="text/html; charset=utf-8" http-equiv="Content-Type">
+	<meta content="width=device-width, initial-scale=1, maximum-scale=1" name="viewport">
+	<title>Text Adventure +</title>
+	<script src="jquery.min.js"></script>
+	<script src="battle.js" type="text/javascript"></script>
+	<script src="adventure.js" type="text/javascript"></script>	
+	<link href='http://fonts.googleapis.com/css?family=Iceland' rel='stylesheet' type='text/css'>
+	<link type="text/css" href="adventure.css" rel="stylesheet">
+</head>
+<body>
+<div align="center" id="topmsg"><p>A noob's first attempt at making something interseting in HTML5 and Javascript</p></div>
+
+<div id="maincontent">
+
+<h1 align="center"> Kanra's Text Adventure + </h1>
+
+<div id="story"></div>
+
+<div id="battleui">
+
+<h3>Enemy HP</h3>
+<div class="bars">
+	<div id="enemyhealth">0%</div>
+</div>
+    <br>
+
+<h3>You</h3>
+<div class="bars">
+	<div id="health">0</div>
+</div>
+<div class="bars">
+    <div id="mana">0</div>
+</div>
+<div id="map">
+
+</div>
+
+
+
+</div>
+
+
+<div class="hideme" id="commandschool">
+<a id="Attacks" href="#">Attack</a>
+<a id="Magic" href="#">Magic</a>
+<a id="Items" href="#">Items</a>
+
+
+<div class="hideme" style="clear:both" id="command-attacks">
+<a id="atk1" class="atkCommand" href="#">Slash</a>
+<a id="atk2" class="atkCommand" href="#">Feral Strike</a>
+</div>
+
+
+<div class="hideme" style="clear:both" id="command-magic">
+<a id="magic1" class="atkCommand" href="#">Enrage</a>
+<a id="magic2" class="atkCommand" href="#">Heal</a>
+<a id="magic3" class="atkCommand" href="#">magic3</a>
+</div>
+
+
+<div class="hideme" style="clear:both" id="command-items">
+<a id="item1" class="atkCommand" href="#">item1</a>
+<a id="item2" class="atkCommand" ref="#">item2</a>
+<a id="item3" class="atkCommand" href="#">item3</a>
+</div>
+
+
+</div>
+<div style="clear:both"><input id="command" width="300"></input></div>
+</div>
+</body>
+</html>
