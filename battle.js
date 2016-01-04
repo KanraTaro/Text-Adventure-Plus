@@ -2,6 +2,8 @@
 // To do: Define player Skills, Define AI Personalities, Skills, and choices. Then follow by adding the calculations that add/subtract HP.
 // Need to remember to consider that, although I can modify player OBJ health directly... I still need to reset it, but in a way that remembers any "extra" HP/Mana the char. has gained.
 
+// Just some git test
+
 var pPchoice = "warrior";
 var pPIdentifier;
 function playerPermaClass(Pchoice){
